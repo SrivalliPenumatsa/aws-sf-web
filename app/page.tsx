@@ -59,7 +59,7 @@ export default async function Home() {
                 Backend Response
               </p>
 
-              <p className="text-lg font-medium text-white">
+              <p className="text-lg font-medium text-white overflow-y-auto">
                 {data.message}
               </p>
             </div>
